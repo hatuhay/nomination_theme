@@ -1,0 +1,106 @@
+/* 
+Theme Name: Bootstrap 4 Sass
+Description: Bootstrap 4 with Sass
+*/
+
+// import files
+@import "import";
+
+/* GENERAL STYLES
+-------------------------------------------------*/
+body {
+  background: $body-bg;
+}
+
+/* COLORS 
+--------------------------------------------------*/
+a {
+  color: $accent-shade;
+}
+.bg-inverse {
+  background: $primary-shade !important;
+}
+.site-footer {
+  background: $accent-shade !important;
+}
+.menu--main li a {
+  color: $primary-shade;
+}
+.menu--account li a {
+  color: $primary-shade;
+}
+.site-name-slogan a {
+  text-decoration: none;
+}
+.card-group img {
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+.card-group .field--type-image {
+  margin: 0
+}
+.slick {
+  width: 100%;
+}
+.slick>div {
+  margin: 0 15px;
+}
+
+/* Header */
+.navbar-brand {
+	.slogan {
+		font-family: $font-family-serif;
+		font-size: $h2-font-size-h2;
+		color: #f4d50c;
+		display: inline-block;
+		padding-top: $spacer*4;
+	}
+}
+
+/* Typography */
+h2,
+h3 {
+	text-transform: uppercase;
+	margin-top: $spacer * 2;
+	font-weight: bold;
+}
+
+/* Front */
+.form-statement {
+	font-style: italic;
+	font-size: 14.5px;
+	line-height: 1.5;
+	border: 1px dashed #848374;
+	padding: 15px 20px;
+	background: #f5f4ee;
+	border-radius: 5px;
+}
+
+/* Form */
+form {
+	background: $white;
+	border: 1px solid $gray-800;
+	padding: $spacer*2;
+	.form-categories {
+		margin-top: $spacer*2;
+		border-top: 1px $gray-400 solid;
+	}
+	.form-controls {
+		padding-top: $spacer*2;
+		button {
+			margin-right: $spacer;
+		}
+	}
+}
+h2.form-title {
+	padding: $spacer;
+	background: $gray-800;
+	color: $white;
+	margin-bottom: 0;
+}
+
+#block-nomination-content {
+	padding-top: $spacer*2;
+	min-height: 600px;
+}
