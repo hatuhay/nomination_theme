@@ -1,6 +1,6 @@
 {
   "name": "hatuhay/nomination_theme",
-  "type": "drupal-theme-custom",
+  "type": "drupal-custom-theme",
   "description": "Specific theme for nomination sites",
   "keywords": ["Drupal"],
   "license": "proprietary",
